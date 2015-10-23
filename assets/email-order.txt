@@ -1,0 +1,22 @@
+SUBJECT: Order {Agreement #}
+
+ORDER DATE: {date}
+
+SHIP TO:
+Andres Galindo
+andres.galindo@flexshopper.com
+2700 N Military Trail, Boca Raton, FL 33431
+954-555-5555
+
+SHIPPING METHOD (2day,ground)
+
+BILL TO: 
+FLEXSHOPPER
+2700 N Military Trail, Boca Raton, FL 33431
+1800-Number
+sales@flexshopper.com
+
+SALE INFO:
+Item SKU    Item Price  Item Quantity   Item Descrption
+123             500             1       Samsung TV
+245             100             1       Blu-Ray

@@ -1,0 +1,13 @@
+FROM: you@company.com
+TO: neworders@flexshopper.com
+
+SUBJECT: Shipping Confirmation 
+
+
+BODY
+Order: {Agreement #}
+Order Date: {date}
+
+Customer: {Customer Name}
+
+Item: {SKU, Name, Tracking Number}
