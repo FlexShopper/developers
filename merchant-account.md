@@ -1,5 +1,5 @@
 ## MERCHANT ACCOUNT
-1. Dowload the [Application Form](https://github.com/FlexShopper/FSDOCS/blob/master/Integrations/assets/Merchant-Application.pdf)
+1. Dowload the [Application Form](https://github.com/FlexShopper/docs/blob/master/assets/Merchant-Application.pdf)
 2. Send to FlexShopper
   	- Scan and email to `development @ flexshopper.com`
   	- Fax to **(561) 348 - 1054**

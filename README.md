@@ -6,10 +6,10 @@ FlexShopper spends millions of dollars in marketing, specifically targeted to 50
 ![3 Major Channels](https://github.com/FlexShopper/docs/blob/master/assets/3-channels.png)
 
 ## Start Here
-1. Signup for a [Merchant Account](https://github.com/FlexShopper/FSDOCS/blob/master/Integrations/merchant-account.md)
+1. Signup for a [Merchant Account](https://github.com/FlexShopper/docs/blob/master/merchant-account.md)
 2. Choose an Integration Channel
-	- [ ]  [Marketplace](https://github.com/FlexShopper/FSDOCS/blob/master/Integrations/marketplace.md)
-	- [ ]  [Payment Method](https://github.com/FlexShopper/FSDOCS/blob/master/Integrations/payment-method.md)
+	- [ ]  [Marketplace](https://github.com/FlexShopper/docs/blob/master/marketplace.md)
+	- [ ]  [Payment Method](https://github.com/FlexShopper/docs/blob/master/payment-method.md)
 	- [ ]  [In Store Kiosk](url)
 3. Contact us with any questions
 	- `development @ flexshopper.com`

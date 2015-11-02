@@ -1,7 +1,7 @@
 ## MARKETPLACE
 Our Marketplace has three (3) parts to the integration: send FlexShopper your product feed, receive orders from FlexShopper, and handle cancelations or returns.  Please review the steps below and read our documentation.
 
-> View our [Marketplace Integration Docs Here](https://github.com/FlexShopper/FSDOCS/blob/master/Integrations/assets/Marketplace.pdf)
+> View our [Marketplace Integration Docs Here](https://github.com/FlexShopper/docs/blob/master/assets/Marketplace.pdf)
 
 **SEND YOUR PRODUCTS** <br/>
 After a Merchant prepares their product feed, they can send it to FlexShopper through our FTP Server.  We support both SFTP and FTP.  Once you have received credentials and whitelisted your server, please refer to our FTP Instructions.
@@ -10,7 +10,7 @@ After a Merchant prepares their product feed, they can send it to FlexShopper th
 	- National distribution feed
 	- Zip code restricted feed
 		- Include a separate list of zip codes
-	- [Feed example](https://github.com/FlexShopper/FSDOCS/blob/master/Integrations/assets/feed-example.csv)
+	- [Feed example](https://github.com/FlexShopper/docs/blob/master/assets/feed-example.csv)
 2. Merchant sets shipping price
   	- Options: flat price or submit with feed
 3. Merchant sends feed via s/ftp
@@ -24,13 +24,13 @@ FlexShopper will send you order confirmations and expect shipping confirmations 
 1. FlexShopper sends order file
 	- Format: email, csv, or json
 	- Post: email address, *our* ftp, or _your_ api
-	- [Email example](https://github.com/FlexShopper/FSDOCS/blob/master/Integrations/assets/email-order.txt)
-	- [CSV example](https://github.com/FlexShopper/FSDOCS/blob/master/Integrations/assets/order-submission-example.csv)
+	- [Email example](https://github.com/FlexShopper/docs/blob/master/assets/email-order.txt)
+	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/order-submission-example.csv)
 2. Merchant sends shipping confirmation
 	- Format: email, csv, or xml/json
 	- Post: `neworders @ flexshopper.com`, *our* ftp, or _our_ api
-	- [Email example](https://github.com/FlexShopper/FSDOCS/blob/master/Integrations/assets/email-shipping.txt)
-	- [CSV example](https://github.com/FlexShopper/FSDOCS/blob/master/Integrations/assets/example-shipment-tracking-file.csv)
+	- [Email example](https://github.com/FlexShopper/docs/blob/master/assets/email-shipping.txt)
+	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/example-shipment-tracking-file.csv)
 3. FlexShopper pays Merchant
 	- Set payment terms
 	- Send voided check for wire transfer
