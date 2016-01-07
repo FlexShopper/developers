@@ -1,2 +1,2 @@
-PO Number,SKU,Quantity,Shipping Method
-25CCCEB0243DF,123,2,Ground
+PO Number,SKU,Quantity,Shipping Method,Ship To Name,Ship to Email,Ship to Address1,Ship to Address2,Ship to City,Ship to State,Ship to ZIP,Ship to Phone 
+25CCCEB0243DF,123,2,Ground,Andres Galindo,andres.galindo@flexshopper.com,2700 N Military Trail,Suite 200,Boca Raton,FL,33143,555-555-555
