@@ -1,0 +1,4 @@
+Receipt_Id,Receipt_Item_Id,Quantity,Status,Note
+25CCCEB0243DF,52DDDEB0243DF,1,Cancel,"Wrong Item"
+25CCCEB0243DF,52DDDEB0243DF,1,Return,"Wrong Item"
+25CCCEB0243DF,52DDDEB0243DF,1,BackOrder,
