@@ -10,7 +10,7 @@ After a Merchant prepares their product feed, they can send it to FlexShopper th
 	- National distribution feed
 	- Zip code restricted feed
 		- Include a separate list of zip codes
-	- [Feed example](https://github.com/FlexShopper/docs/blob/master/assets/feed-example.csv)
+	- [Feed example](https://github.com/FlexShopper/docs/blob/master/assets/example-feed.csv)
 2. Merchant sets shipping price
   	- Options: flat price or submit with feed
 3. Merchant sends feed via s/ftp
@@ -25,7 +25,7 @@ FlexShopper will send you order confirmations and expect shipping confirmations 
 	- Format: email, csv, or json
 	- Post: email address, *our* ftp, or _your_ api
 	- [Email example](https://github.com/FlexShopper/docs/blob/master/assets/email-order.txt)
-	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/order-submission-example.csv)
+	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/example-order-submission.csv)
 2. Merchant sends shipping confirmation
 	- Format: email, csv, or xml/json
 	- Post: `neworders @ flexshopper.com`, *our* ftp, or _our_ api
@@ -44,7 +44,9 @@ Cancellations and returns typically occur through one of two scenarios.  Either 
 1. FlexShopper sends cancellation request
 	- Format: call, email, csv, or json
 	- Post: customer service #, email address, *our* ftp, or _your_ api
+	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/example-order-change.csv)
 2. Merchant sends cancellation request
 	- Format: call, email, csv, or json
 	- Post: **(855) 353-9289**, `neworders @ flexshopper.com`, *our* ftp, or _our_ api
 	- FlexShopper Customer Service notifies customer of cancellation
+	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/example-order-change.csv)
