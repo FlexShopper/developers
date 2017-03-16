@@ -1,10 +1,10 @@
 ## PAYMENT METHOD
 The FlexShopper payment method can be used on your website to capitalize on **_New_** customers.  We finance your customers shopping and pay you 100% of the retail price with no fees.  Read our documentation below to get started.
 
-> View our [Payment Method Integration Docs Here](assets/FPayPaymentMethodDocumentationv2 (1).pdf)
+> View our [Payment Method Integration Docs Here](assets/FPayPaymentMethodDocumentationv2(1).pdf)
 
 ##### 4 Easy Steps
-1. Review our [Payment Processor Documentation](assets/FPayPaymentMethodDocumentationv2 (1).pdf) & [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentation.pdf)
+1. Review our [Payment Processor Documentation](assets/FPayPaymentMethodDocumentationv2(1).pdf & [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentation.pdf)
 2. Receive credentials
 	- Retailer ID:
 	- Retailer Token:
