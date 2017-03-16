@@ -11,7 +11,7 @@ FlexShopper spends millions of dollars in marketing, specifically targeted to 50
 	- [ ]  [API Documentation v.1 - Integrations PRIOR to March 1st 2017]<br>
 	[Marketplace](https://github.com/FlexShopper/docs/blob/master/marketplace.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Payment Method](https://github.com/FlexShopper/docs/blob/master/payment-method.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[In Store Kiosk](url)
 	- [ ]  [API Documentation v.2 - Integrations AFTER March 1st 2017]<br>
-		[Marketplace](marketplace v2.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Payment Method](payment-method v2.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[In Store Kiosk](flex-kiosk.md)
+		[Marketplace](marketplace\ v2.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Payment Method](payment-method\ v2.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[In Store Kiosk](flex-kiosk.md)
 3. Contact us with any questions
 	- `integration @ flexshopper.com`
 4. Receive new customers and _enjoy_!
