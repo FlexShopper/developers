@@ -31,14 +31,14 @@ FlexShopper will send you order confirmations and expect shipping confirmations 
 	- [Email example](https://github.com/FlexShopper/docs/blob/master/assets/email-order.txt)
 	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/example-order-submission.csv)
 2. Merchant sends shipping confirmation
-	- Full documentation for confirmations can be found under the 'Transaction Item Shipment Confirmations' header on our [API Documentation Page](file:///Users/Savage/Desktop/apollo/docs/assets/SharedV2EndpointDocumentation.pdf)
+	- Full documentation for confirmations can be found under the 'Transaction Item Shipment Confirmations' header on our [API Documentation Page](assets/SharedV2EndpointDocumentation.pdf)
 	- Format: email, csv, or xml/json
 	- Post: `neworders @ flexshopper.com`, *our* ftp, or _our_ api
 	- [Email example](https://github.com/FlexShopper/docs/blob/master/assets/email-shipping.txt)
 	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/example-shipment-tracking-file.csv)
 	- EDI Integration upon request. Please send an email to `integration @ flexshopper.com`
 3. Shipping Date Estimation
-	- Some merchants can provide estimated dates of delivery without tracking numbers. Please reference the 'Transaction Item Delivery Date' header on our [API Documentation Page](file:///Users/Savage/Desktop/apollo/docs/assets/SharedV2EndpointDocumentation.pdf)
+	- Some merchants can provide estimated dates of delivery without tracking numbers. Please reference the 'Transaction Item Delivery Date' header on our [API Documentation Page](assets/SharedV2EndpointDocumentation.pdf)
 4. FlexShopper pays Merchant
 	- Set payment terms
 	- Send voided check for wire transfer
@@ -59,10 +59,10 @@ Cancellations and returns typically occur through one of two scenarios.  Either 
 	- FlexShopper Customer Service notifies customer of cancellation
 	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/example-order-change.csv)
 3. Customer requests a refund/credit
-	- For a breakdown of the credit procedure please reference the 'Transaction Item Credits' header on our [API Documentation](/Users/Savage/Desktop/apollo/docs/assets/SharedV2EndpointDocumentation.pdf)
+	- For a breakdown of the credit procedure please reference the 'Transaction Item Credits' header on our [API Documentation](assets/SharedV2EndpointDocumentation.pdf)
 4. EDI Integration
 	- EDI integration allows for cancellation of orders. Please send an email to `integration @ flexshopper.com` for more information. 
 
 **RETURN ORDERS**
 1. Customer contacts FlexShopper to return a product
-	- A return occurs when a customer contacts FlexShopper to coordinate the return of a good to a vendor/store. Please reference the 'Transaction Item Returns' header on our [API Documentation](file:///Users/Savage/Desktop/apollo/docs/assets/SharedV2EndpointDocumentation.pdf)
+	- A return occurs when a customer contacts FlexShopper to coordinate the return of a good to a vendor/store. Please reference the 'Transaction Item Returns' header on our [API Documentation](assets/SharedV2EndpointDocumentation.pdf)
