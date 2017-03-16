@@ -1,7 +1,7 @@
 ## MARKETPLACE
 Our Marketplace has three (3) parts to the integration: send FlexShopper your product feed, receive orders from FlexShopper, and handle cancelations or returns.  Please review the steps below and read our documentation.
 
-> View our [Marketplace Integration Docs Here](https://github.com/FlexShopper/docs/blob/master/assets/Marketplace.pdf) & our full [API Documentation](/Users/Savage/Desktop/apollo/docs/assets/SharedV2EndpointDocumentation.pdf)
+> View our [Marketplace Integration Docs Here](https://github.com/FlexShopper/docs/blob/master/assets/Marketplace.pdf) & our full [API Documentation](assets/SharedV2EndpointDocumentation.pdf)
 
 **SEND YOUR PRODUCTS** <br/>
 After a Merchant prepares their product feed, they can send it to FlexShopper through our FTP Server.  We support both SFTP and FTP.  Once you have received credentials and whitelisted your server, please refer to our FTP Instructions.
