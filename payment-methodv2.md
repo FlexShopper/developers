@@ -4,7 +4,7 @@ The FlexShopper payment method can be used on your website to capitalize on **_N
 > View our [Payment Method Integration Docs Here](assets/FPayPaymentMethodDocumentationv2(1).pdf)
 
 ##### 4 Easy Steps
-1. Review our [Payment Processor Documentation](assets/FPayPaymentMethodDocumentationv2(1).pdf & [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentation.pdf)
+1. Review our [Payment Processor Documentation](assets/FPayPaymentMethodDocumentationv2(1).pdf) & [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentation.pdf)
 2. Receive credentials
 	- Retailer ID:
 	- Retailer Token:
