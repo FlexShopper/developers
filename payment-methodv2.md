@@ -16,7 +16,7 @@ The FlexShopper payment method can be used on your website to capitalize on **_N
 **Payment Processor 5 Pillars of Success**<br>
 	- The payment processor integration is comprised of four major parts: The "Hidden Payment Form", "Handshake", "Shipping confirmation", and "Shared Services."
 1. Payment Button
-	- 
+	- The payment button integrates with the vendor's website and allows customers to purchase products using the payment button without leaving the vendors website. More information can be found on our [Payment Method Documentation](assets/FPayPaymentMethodDocumentationv2(1).pdf)
 2. GET/Transactions "Handshake"
 	- This is a required endpoint used by the merchant consuming the payment processor to confirm the status of the transaction. Please reference the 'Transaction Status Endpoint (Final Handshake)' header on our [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentation.pdf)
 3. Shipping Confirmation
