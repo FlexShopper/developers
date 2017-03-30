@@ -8,9 +8,9 @@ FlexShopper spends millions of dollars in marketing, specifically targeted to 50
 ## Start Here
 1. Signup for a [Merchant Account](https://github.com/FlexShopper/docs/blob/master/merchant-account.md)
 2. Choose an Integration Channel
-	- [ ]  [API Documentation v.1 - Integrations PRIOR to March 1st 2017]<br>
+	- [ ]  [API Documentation v.1 - Integrations PRIOR to March 1st 2017]
 	[Marketplace](https://github.com/FlexShopper/docs/blob/master/marketplace.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Payment Method](https://github.com/FlexShopper/docs/blob/master/payment-method.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[In Store Kiosk](flex-kiosk.md)
-	- [ ]  [API Documentation v.2 - Integrations AFTER March 1st 2017]<br>
+	- [ ]  [API Documentation v.2 - Integrations AFTER March 1st 2017]
 		[Marketplace](marketplacev2.md)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Payment Method](payment-methodv2.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[In Store Kiosk](flex-kiosk.md)
 3. Contact us with any questions
 	- `integration @ flexshopper.com`
