@@ -3,10 +3,10 @@ Our Marketplace has three (3) parts to the integration: send FlexShopper your pr
 
 > View our [Marketplace Integration Docs Here](https://github.com/FlexShopper/docs/blob/master/assets/Marketplace.pdf) & our full [API Documentation](assets/SharedV2EndpointDocumentation.pdf)
 
-**SEND YOUR PRODUCTS** <br/>
+**SEND YOUR PRODUCTS**
 After a Merchant prepares their product feed, they can send it to FlexShopper through our FTP Server.  We support both SFTP and FTP.  Once you have received credentials and whitelisted your server, please refer to our FTP Instructions.
 
-1. Merchant prepares feed.  
+1. Merchant prepares feed.
 	- National distribution feed
 	- Zip code restricted feed
 		- Include a separate list of zip codes
@@ -16,13 +16,13 @@ After a Merchant prepares their product feed, they can send it to FlexShopper th
 3. Merchant sends feed via s/ftp
 	- FlexShopper provides s/ftp credentials
 	- Merchant provides ip for FlexShopper to whitelist
-4. EDI integration 
+4. EDI integration
     - Ask us about our EDI integration support `integration @ flexshopper.com`
  5. API Integration
  	- Ask us about our API integration support `integration @ flexshopper.com`
 
 
-**RECEIVE ORDERS** <br/>
+**RECEIVE ORDERS**
 FlexShopper will send you order confirmations and expect shipping confirmations in return.  Once we have a shipment confirmation, we will process payment to you.
 
 1. FlexShopper sends order file
@@ -46,7 +46,7 @@ FlexShopper will send you order confirmations and expect shipping confirmations 
 		- Email `integration @ flexshopper.com` for our tax exempt certificates
 
 
-**CANCEL ORDERS** <br/>
+**CANCEL ORDERS**
 Cancellations and returns typically occur through one of two scenarios.  Either the Customer contacts FlexShopper to cancel the order and we contact our Vendor, or the Vendor can not fulfill the order and we contact the Customer.
 
 1. FlexShopper sends cancellation request
@@ -61,7 +61,7 @@ Cancellations and returns typically occur through one of two scenarios.  Either 
 3. Customer requests a refund/credit
 	- For a breakdown of the credit procedure please reference the 'Transaction Item Credits' header on our [API Documentation](assets/SharedV2EndpointDocumentation.pdf)
 4. EDI Integration
-	- EDI integration allows for cancellation of orders. Please send an email to `integration @ flexshopper.com` for more information. 
+	- EDI integration allows for cancellation of orders. Please send an email to `integration @ flexshopper.com` for more information.
 
 **RETURN ORDERS**
 1. Customer contacts FlexShopper to return a product
