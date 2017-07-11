@@ -17,7 +17,7 @@
 
 `price` *REQUIRED*
 
-`path` - `Categories/Paths/Specific Path` *REQUIRED*
+`path` - category path, join multiple with `^` e.g,`A/B/C^D/E/F`,  *REQUIRED*
 
 `mpn` - *REQUIRED*
 
