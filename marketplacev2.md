@@ -6,13 +6,15 @@ Our Marketplace has three (3) parts to the integration: send FlexShopper your pr
 **SEND YOUR PRODUCTS**
 After a Merchant prepares their product feed, they can send it to FlexShopper through our FTP Server.  We support both SFTP and FTP.  Once you have received credentials and whitelisted your server, please refer to our FTP Instructions.
 
-1. Merchant prepares feed.
+1. Merchant prepares feed
 	- National distribution feed
 	- Zip code restricted feed
 		- Include a separate list of zip codes
+    - [Feed specification](https://github.com/FlexShopper/docs/blob/master/assets/flexfeed.md)
 	- [Feed example](https://github.com/FlexShopper/docs/blob/master/assets/example-feed.csv)
-2. Merchant sets shipping price
-  	- Options: flat price or submit with feed
+2. Merchant configures shipping
+    - Shipping times, restrictions, policies 
+    - Pricing options: flat price, pricing by product in feed, or pricing by UPS API using postal codes and weight
 3. Merchant sends feed via s/ftp
 	- FlexShopper provides s/ftp credentials
 	- Merchant provides ip for FlexShopper to whitelist
