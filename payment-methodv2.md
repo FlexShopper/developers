@@ -4,7 +4,7 @@ The FlexShopper payment method can be used on your website to capitalize on **_N
 > View our [Payment Method Integration Docs Here](assets/FPayPaymentMethodDocumentationv2(1).pdf)
 
 ##### 4 Easy Steps
-1. Review our [Payment Processor Documentation](assets/FPayPaymentMethodDocumentationv2(1).pdf) & [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentation.pdf)
+1. Review our [Payment Processor Documentation](assets/FPayPaymentMethodDocumentationv2(1).pdf) & [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
 2. Receive credentials
 	- Retailer ID:
 	- Retailer Token:
@@ -20,15 +20,15 @@ The FlexShopper payment method can be used on your website to capitalize on **_N
 	- The payment button integrates with the vendor's website and allows customers to purchase products using the payment button without leaving the vendors website. More information can be found on our [Payment Method Documentation](assets/FPayPaymentMethodDocumentationv2(1).pdf)
 
 2. GET/Transactions "Handshake"
-	- This is a required endpoint used by the merchant consuming the payment processor to confirm the status of the transaction. Please reference the 'Transaction Status Endpoint (Final Handshake)' header on our [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentation.pdf)
+	- This is a required endpoint used by the merchant consuming the payment processor to confirm the status of the transaction. Please reference the 'Transaction Status Endpoint (Final Handshake)' header on our [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
 
 3. Shipping Confirmation
-	- This is a required endpoint used by the merchant to identify the date the item or items were delivered. Please reference the 'Transaction Item Shipment Confirmations' header on our [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentation.pdf)
+	- This is a required endpoint used by the merchant to identify the date the item or items were delivered. Please reference the 'Transaction Item Shipment Confirmations' header on our [Shared API Endpoint Documentation](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
 
 4. Fulfillment Communication
    
    **Merchant sends shipping confirmation**
-	- Full documentation for confirmations can be found under the 'Transaction Item Shipment Confirmations' header on our [API Documentation Page](assets/SharedV2EndpointDocumentation.pdf)
+	- Full documentation for confirmations can be found under the 'Transaction Item Shipment Confirmations' header on our [API Documentation Page](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
 	- Format: email, csv, or xml/json
 	- Post: `neworders @ flexshopper.com`, *our* ftp, or _our_ api
 	- [Email example](assets/email-shipping.txt)
@@ -36,7 +36,7 @@ The FlexShopper payment method can be used on your website to capitalize on **_N
 	
 	
 **Shipping Date Estimation**
-	- Some merchants can provide estimated dates of delivery without tracking numbers. Please reference the 'Transaction Item Delivery Date' header on our [API Documentation Page](assets/SharedV2EndpointDocumentation.pdf)
+	- Some merchants can provide estimated dates of delivery without tracking numbers. Please reference the 'Transaction Item Delivery Date' header on our [API Documentation Page](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
 	
 	
 **FlexShopper pays Merchant**
@@ -45,4 +45,4 @@ The FlexShopper payment method can be used on your website to capitalize on **_N
 	- FlexShopper is exempt from taxes in all 50 states
 5. Shared Services 
 	- Shared Services is a combination of _Order Change_, _Ship Date Estimation_, _Cancellations_, _Returns_, and _Refunds/Credits_. All information on Shared
-   Services can be found on our [Shared API Engpoint Documentation](assets/SharedV2EndpointDocumentation.pdf)
+   Services can be found on our [Shared API Engpoint Documentation](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
