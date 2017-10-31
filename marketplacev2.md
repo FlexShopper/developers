@@ -1,7 +1,7 @@
 ## MARKETPLACE
 Our Marketplace has three (3) parts to the integration: send FlexShopper your product feed, receive orders from FlexShopper, and handle cancelations or returns.  Please review the steps below and read our documentation.
 
-> View our [Marketplace Integration Docs Here](https://github.com/FlexShopper/docs/blob/master/assets/Marketplace.pdf) & our full [API Documentation](assets/SharedV2EndpointDocumentation.pdf)
+> View our [Marketplace Integration Docs Here](https://github.com/FlexShopper/docs/blob/master/assets/Marketplace.pdf) & our full [API Documentation](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
 
 **SEND YOUR PRODUCTS**
 After a Merchant prepares their product feed, they can send it to FlexShopper through our FTP Server.  We support both SFTP and FTP.  Once you have received credentials and whitelisted your server, please refer to our FTP Instructions.
@@ -33,14 +33,14 @@ FlexShopper will send you order confirmations and expect shipping confirmations 
 	- [Email example](https://github.com/FlexShopper/docs/blob/master/assets/email-order.txt)
 	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/example-order-submission.csv)
 2. Merchant sends shipping confirmation
-	- Full documentation for confirmations can be found under the 'Transaction Item Shipment Confirmations' header on our [API Documentation Page](assets/SharedV2EndpointDocumentation.pdf)
+	- Full documentation for confirmations can be found under the 'Transaction Item Shipment Confirmations' header on our [API Documentation Page](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
 	- Format: email, csv, or xml/json
 	- Post: `neworders @ flexshopper.com`, *our* ftp, or _our_ api
 	- [Email example](https://github.com/FlexShopper/docs/blob/master/assets/email-shipping.txt)
 	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/example-shipment-tracking-file.csv)
 	- EDI Integration upon request. Please send an email to `integration @ flexshopper.com`
 3. Shipping Date Estimation
-	- Some merchants can provide estimated dates of delivery without tracking numbers. Please reference the 'Transaction Item Delivery Date' header on our [API Documentation Page](assets/SharedV2EndpointDocumentation.pdf)
+	- Some merchants can provide estimated dates of delivery without tracking numbers. Please reference the 'Transaction Item Delivery Date' header on our [API Documentation Page](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
 4. FlexShopper pays Merchant
 	- Set payment terms
 	- Send voided check for wire transfer
@@ -61,10 +61,10 @@ Cancellations and returns typically occur through one of two scenarios.  Either 
 	- FlexShopper Customer Service notifies customer of cancellation
 	- [CSV example](https://github.com/FlexShopper/docs/blob/master/assets/example-order-change.csv)
 3. Customer requests a refund/credit
-	- For a breakdown of the credit procedure please reference the 'Transaction Item Credits' header on our [API Documentation](assets/SharedV2EndpointDocumentation.pdf)
+	- For a breakdown of the credit procedure please reference the 'Transaction Item Credits' header on our [API Documentation](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
 4. EDI Integration
 	- EDI integration allows for cancellation of orders. Please send an email to `integration @ flexshopper.com` for more information.
 
 **RETURN ORDERS**
 1. Customer contacts FlexShopper to return a product
-	- A return occurs when a customer contacts FlexShopper to coordinate the return of a good to a vendor/store. Please reference the 'Transaction Item Returns' header on our [API Documentation](assets/SharedV2EndpointDocumentation.pdf)
+	- A return occurs when a customer contacts FlexShopper to coordinate the return of a good to a vendor/store. Please reference the 'Transaction Item Returns' header on our [API Documentation](assets/SharedV2EndpointDocumentationV1.0.6.pdf)
